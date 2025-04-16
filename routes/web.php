@@ -16,8 +16,7 @@ Route::get('/listado', function(){
     ],[
         "nombre" => "pinzas",
         "cantidad" => 4
-    ],
-];
+    ]];
 
     return view('herramientas/listado_herramientas')->with("h",$herramientas);
 });
